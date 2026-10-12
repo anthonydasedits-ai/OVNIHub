@@ -1,0 +1,1654 @@
+--[[
+    ╔══════════════════════════════════════════════════════════╗
+    ║                      OVNI HUB                            ║
+    ║                   by @tonyinho0                          ║
+    ║              Logo/Fundo: 109419587078974                 ║
+    ╚══════════════════════════════════════════════════════════╝
+--]]
+
+hookfunction(require, game:GetService["Effect"]["Container"]["Death"]);
+hookfunction(require, game:GetService["Effect"]["Container"]["Respawn"]);
+
+if game["PlaceId"] ~= 2753915549 then
+  if game["PlaceId"] ~= 85211729168715 then
+    World1 = true;
+    if game["PlaceId"] ~= 4442272183 then
+      if game["PlaceId"] ~= 79091703265657 then
+        World2 = true;
+        if game["PlaceId"] ~= 7449423635 then
+          if game["PlaceId"] ~= 100117331123089 then
+            World3 = true;
+
+            MaterialMon = true;
+            CheckQuest = true;
+            Hop = true;
+            CheckItem = true;
+            UpdateIslandESP = true;
+            isnil = true;
+            Number = math["random"];
+            UpdatePlayerChams = math["random"];
+            UpdateChestESP = math["random"];
+            UpdateDevilChams = math["random"];
+            UpdateFlowerChams = math["random"];
+            UpdateRealFruitChams = math["random"];
+            UpdateIslandESP = math["random"];
+
+            spawn(1);
+            spawn(R7);
+            spawn(R7);
+
+            isnil = R6;
+            Number = math["random"];
+            UpdateIslandMirageESP = math["random"];
+            UpdatePrehistoricIslandESP = math["random"];
+            UpdateAfdESP = math["random"];
+            UpdateAuraESP = math["random"];
+            UpdateLSDESP = math["random"];
+
+            spawn(1);
+
+            InfAb = R7;
+            UpdateGeaESP = R7;
+            UpdateBerriesESP = R7;
+            UpdateIslandKisuneESP = R7;
+            AutoHaki = R7;
+            UnEquipWeapon = R7;
+            EquipWeapon = R7;
+
+            spawn(R8);
+            spawn(R8);
+
+            StopTween = R7;
+            LockTween = R7;
+            BringMob = R7;
+            CancelTween23 = R7;
+            KillMob = R7;
+
+            spawn(R8);
+            spawn(R8);
+            spawn(R8);
+
+            enableNoclip = R7;
+            disableNoclip = R7;
+            disableCollisions = R7;
+
+            spawn(R10);
+
+            EquipAllWeapon = R9;
+            WaitHRP = R10;
+            CheckNearestTeleporter = R10;
+            requestEntrance = R10;
+            TelePPlayer = R10;
+            topos = R10;
+            stopTeleport = R10;
+
+            spawn(R11);
+            spawn(R11);
+
+            game["Players"]["LocalPlayer"]["CharacterAdded"]:Connect(R14);
+
+            if not game["Players"]["LocalPlayer"]["Character"] then
+              game["Players"]["LocalPlayer"]["Character"](game["Players"]["LocalPlayer"]["Character"]);
+
+              TP1 = R12;
+              spawn(R13);
+              spawn(R13);
+              spawn(R13);
+
+              TP13 = R13;
+              fastpos = R13;
+              slowpos = R13;
+              BTP = R14;
+              TelePPlayer = R14;
+              TPB = R14;
+              TPP = R14;
+              StopTween = R14;
+
+              spawn(R15);
+
+              game:GetService["LocalPlayer"]["Idled"]:connect("Players");
+
+              CheckColorRipIndra = R14;
+              ActivateColor = R14;
+              AutoActiveColorRip_Indra = R14;
+              CheckRace = R14;
+
+              _G["TargTrial"] = "TargTrial";
+              targettrial = _G;
+              CheckPirateBoat = _G;
+              CheckPirateBoat = _G;
+              StoreFruit = _G;
+              TpEntrance = _G;
+              CheckItemBPCRBPCR = _G;
+
+              -- ═══════════════════════════════════════════════════════
+              --  CRIAÇÃO DA GUI - OVNI HUB
+              --  Título: OVNI Hub
+              --  Subtítulo: by @tonyinho0
+              --  Logo/Fundo: 109419587078974
+              -- ═══════════════════════════════════════════════════════
+              Instance["new"]["Name"] = "ControlGUI";
+              Instance["new"]["Parent"] = {
+                "Title" = "OVNI Hub",
+                "SubTitle" = "by @tonyinho0",
+                "SaveFolder" = "OVNI | ovni lib v5.lua",
+              }["CoreGui"];
+              Instance["new"]["Size"] = UDim2["new"];
+              Instance["new"]["Position"] = UDim2["new"];
+              Instance["new"]["Image"] = "rbxassetid://109419587078974";
+              Instance["new"]["BackgroundTransparency"] = 1;
+              Instance["new"]["Parent"] = Instance["new"];
+              Instance["new"]["CornerRadius"] = UDim["new"];
+              Instance["new"]["Parent"] = Instance["new"];
+
+              Instance["new"]["InputBegan"]:Connect(R26);
+              Instance["new"]["InputChanged"]:Connect(R26);
+              game:GetService["InputChanged"]:Connect("UserInputService");
+              Instance["new"]["MouseButton1Click"]:Connect(R26);
+
+              { "SelectWeapon" = "Melee" }["spawn"]({});
+
+              -- ═══════════════════════════════════════════════════════
+              --  SEÇÃO: AUTO FARM
+              -- ═══════════════════════════════════════════════════════
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                "Name" = "Auto Farm Level",
+                "Description" = "Only Level 1 -> Level 2650",
+                "Default" = false,
+                "Callback" = "Sword",
+              });
+
+              spawn(R40);
+
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                "Title" = "Farm Level New",
+                "Description" = "Only Submerged Island",
+                "Value" = false,
+                "Callback" = "Sword",
+              });
+
+              CheckQuestNew = R39;
+              spawn(R40);
+
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                "Name" = "Auto Kill Near | Mob Aura",
+                "Description" = "Đánh Quái Gần",
+                "Default" = false,
+                "Callback" = "Sword",
+              });
+
+              spawn(R40);
+
+              if not World1 then
+                if not World2 then
+                  if not World3 then
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                      "Name" = "Auto Select Boss",
+                      "Description" = "Chọn Boss Cần Farm",
+                      "Options" = {},
+                      "Default" = {}[1],
+                      "Callback" = {}[1],
+                    });
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Farm Boss",
+                      "Description" = "Farm Boss Đã Chọn",
+                      "Default" = false,
+                      "Callback" = {}[1],
+                    });
+
+                    task["spawn"](R42);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Farm Pirate",
+                      "Description" = "Đánh Hải Tặc Trên Pháo Đài Biển",
+                      "Default" = false,
+                      "Callback" = "Hydra Leader",
+                    });
+
+                    spawn(R43);
+
+                    task["spawn"]({ "Title" = "Check Eyes Status", "Content" = "Loading..." });
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Farm Tyrant",
+                      "Description" = "Farm Quái Và Đánh Boss Chim",
+                      "Default" = false,
+                      "Callback" = "Captain Elephant",
+                    });
+
+                    task["spawn"]("Workspace");
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Summon Tyrant Of The Skies",
+                      "Description" = "Tự Động Phá Bình Để Triệu Hồi Boss",
+                      "Default" = false,
+                      "Callback" = "rip_indra True Form",
+                    });
+
+                    TweenToPosition = CFrame["new"];
+                    Skill = CFrame["new"];
+                    Click = CFrame["new"];
+                    FindWeapon = CFrame["new"];
+                    EquipWeapon = CFrame["new"];
+                    AttackAllSkills = CFrame["new"];
+
+                    task["spawn"](CFrame["new"]);
+                    task["spawn"]({ "Title" = "Check Bone", "Content" = "Loading..." });
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Fram Bone",
+                      "Description" = "Fram Sương",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R50);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Seperator Hallow Scythe",
+                      "Description" = "Triệu hồi và tiêu diệt Soul Reaper",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R50);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Trade Bone",
+                      "Description" = "Tự động đổi xương lấy phần thưởng",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R50);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Pray",
+                      "Description" = "",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R50);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Try Luck",
+                      "Description" = "",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R50);
+
+                    task["spawn"]({ "Title" = "Check Cake Prince", "Content" = "Loading..." });
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Farm Katakuri",
+                      "Description" = "Fram Quái Và Đánh Hoàng Tử Bột V1",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    task["spawn"]("Workspace");
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Farm Katakuri V2",
+                      "Description" = "Fram Quái Và Đánh Hoàng Tử Bột V2",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R54);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Collect Berry",
+                      "Description" = "Tự động Nhặt Berry",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R55);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                      "Name" = "Auto Farm Chest [ Tween ]",
+                      "Description" = "Tự động Nhặt rương bằng tween",
+                      "Default" = false,
+                      "Callback" = false,
+                    });
+
+                    spawn(R55);
+
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                      "Name" = "Cập Nhật Boss",
+                      "Description" = "Làm mới danh sách boss",
+                      "Callback" = "Làm mới danh sách boss",
+                    });
+
+                    task["spawn"]({
+                      "Title" = "Boss Spawn Status",
+                      "Content" = "Initializing...",
+                    });
+
+                    if not World1 then
+                      if World2 then
+                        if not World3 then
+                          loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                            "Name" = "Auto Select Boss",
+                            "Description" = "Chọn Boss Cần Farm",
+                            "Options" = {},
+                            "Default" = {}[1],
+                            "Callback" = {}[1],
+                          });
+
+                          loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                            "Name" = "Farm Boss",
+                            "Description" = "Farm Boss Đã Chọn",
+                            "Default" = false,
+                            "Callback" = false,
+                          });
+
+                          task["spawn"](R58);
+
+                          if World1 then
+                            if not World2 then
+                              if not World3 then
+                                getConfigMaterial = {};
+
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                                  "Name" = "Select Material",
+                                  "Description" = "Chọn vật phẩm cần farm",
+                                  "Options" = {},
+                                  "Default" = {}[1],
+                                  "Callback" = {}[1],
+                                });
+
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                  "Name" = "Start Farm",
+                                  "Description" = "Tự động farm material đã chọn",
+                                  "Default" = false,
+                                  "Callback" = false,
+                                });
+
+                                task["spawn"](R60);
+
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                  "Title" = "Auto Fishing",
+                                  "Description" = "Tự Động Câu Cá Xoá Hiệu Ứng Khi Câu",
+                                  "Default" = false,
+                                  "Callback" = false,
+                                });
+
+                                task["spawn"]("GetWaterHeightAtLocation");
+
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                                  "Name" = "Select Fishing Lure",
+                                  "Description" = "Tự Động Chọn Mồi Khi Câu Cá",
+                                  "Options" = {},
+                                  "Default" = "Basic Bait",
+                                  "Callback" = "Basic Bait",
+                                });
+
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                                  "Name" = "Select Fishing Rod",
+                                  "Description" = "Tự Động Chọn Cần Câu Khi Câu Cá",
+                                  "Options" = {},
+                                  "Default" = "Fishing Rod",
+                                  "Callback" = "Fishing Rod",
+                                });
+
+                                if not World1 then
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "AutoSecondSea",
+                                    "Description" = "Tự động Auto Quest Sea 2",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R68);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Kill Greybeard",
+                                    "Description" = "Tự động Đánh Greybeard",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R69);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Auto Get Saber",
+                                    "Description" = "Tự động Lấy Kiếm Saber",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R70);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Auto Get Sword Pole",
+                                    "Description" = "Tự động Lấy Kiếm Pole",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R70);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Auto Get Sword Saw",
+                                    "Description" = "Tự động Lấy Kiếm Saw",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(1582.2380371094);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Auto Get Sword Wardens",
+                                    "Description" = "Tự động Lấy Kiếm Wardens",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R72);
+
+                                  loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                    "Name" = "Auto Get Sword Trident",
+                                    "Description" = "Tự động Lấy Kiếm Trident",
+                                    "Default" = false,
+                                    "Callback" = false,
+                                  });
+
+                                  spawn(R72);
+
+                                  if not World2 then
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Quest Sea Bartilo",
+                                      "Description" = "Tự động Làm Nhiệm Vụ Sea Bartilo",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R68);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Quest Sea 3",
+                                      "Description" = "Tự động Làm Nhiệm Vụ Sang Sea 3",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R68);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Factory",
+                                      "Description" = "Tự động Đánh Nhà Máy",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R69);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Kill Dark Beard",
+                                      "Description" = "Tự động Đánh Râu Đen",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R70);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Kill Cursed Captain",
+                                      "Description" = "Tự động Đánh Cursed Captain",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R70);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Buy Haki Colors",
+                                      "Description" = "Tự động Mua Haki",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R71);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Title" = "Auto Buy Legendary Sword",
+                                      "Value" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R71);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Get Longsword",
+                                      "Description" = "Tự động Get Longsword",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R72);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Get Sword Gravity Blade",
+                                      "Description" = "Tự động Lấy Gravity Blade",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R72);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Get Sword Flail",
+                                      "Description" = "Tự động Lấy Flail",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R72);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Get Sword Rengoku",
+                                      "Description" = "Tự động Lấy Rengoku",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R72);
+
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                      "Name" = "Auto Get Sword Dragon Trident",
+                                      "Description" = "Tự động Lấy Dragon Trident",
+                                      "Default" = false,
+                                      "Callback" = false,
+                                    });
+
+                                    spawn(R72);
+
+                                    if not World3 then
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto kill Rip Indra",
+                                        "Description" = "Tự động Đánh Rip Indra",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(-2725.0930175781);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Haki Colors",
+                                        "Description" = "Tự Động Haki Colors",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R71);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Skull Guitar",
+                                        "Description" = "Tự Động Lấy Đàn GuiTar",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R72);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Kill Elite Hunter",
+                                        "Description" = "Tự Động Đánh Elite Hunter",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R72);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Cdk [Beta]",
+                                        "Description" = "Tự Động Lấy Xong Kiếm Ô Đen",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      task["spawn"](R73);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Yama",
+                                        "Description" = "Tự Động Lấy Kiếm Yama",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R73);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Holy Torch Tushita",
+                                        "Description" = "Tự Động Torch Tushita",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R73);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Tushita",
+                                        "Description" = "Tự Động Lấy Tushita",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R73);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Sword Twin Hooks",
+                                        "Description" = "Tự Động Lấy Kiếm Twin Hooks",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R74);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Sword Canvander",
+                                        "Description" = "Tự Động Lấy Kiếm Canvander",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R74);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Sword Buddy",
+                                        "Description" = "Tự Động Lấy Kiếm Buddy",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R74);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddSection({
+                                        "Title" = "Tween Dragon Dojo",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Dragon Huntery",
+                                        "Description" = "Tự Động Farm Blaze",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      checkQuesta = R66;
+                                      BackTODoJo = R66;
+                                      DragonMobClear = R66;
+
+                                      spawn(R67);
+                                      spawn(R67);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                        "Title" = "Craft Volcanic Magnet",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      task["spawn"]({
+                                        "Title" = "Check Prehistoric Island",
+                                        "Content" = "Loading...",
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Find Prehistoric",
+                                        "Description" = "Tự Động Tìm Đảo Thời Tiền Sử ( Đảo Núi Lửa )",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      game:GetService["RenderStepped"]:Connect(false);
+                                      game:GetService["RenderStepped"]:Connect(R79);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Tween Prehistoric Island",
+                                        "Description" = "Tự Động Bay Vào Đảo Núi Lửa Volcano",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R78);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Defend Prehistoric",
+                                        "Description" = "Xoá Lava",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R82);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Use Melee",
+                                        "Description" = "Dùng Melee Để Phá Lava",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Use Sword",
+                                        "Description" = "Dùng Sword Để Phá Lava",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Use Gun",
+                                        "Description" = "Dùng Gun Để Phá Lava",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Golem",
+                                        "Description" = "Tự Động Kill Golem",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R84);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Aura Golem",
+                                        "Description" = "Tự Động Kill Aura Golem",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R84);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Collect Bone",
+                                        "Description" = "Tự Động Nhặt Sương",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R85);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Collect Egg",
+                                        "Description" = "Tự Động Nhặt Trứng",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R85);
+
+                                      task["spawn"]({ "Title" = "Check Kitsune Island", "Content" = "Loading..." });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Tween Kitsune island",
+                                        "Description" = "Bay Vô Đảo Kitsune",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R87);
+                                      spawn(R87);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Title" = "Esp Kitsune Island",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Azuer Ember",
+                                        "Description" = "Tự Động Nhặt Linh Hồn Xanh",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R87);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Drive Boats",
+                                        "Description" = "Tự Động Lái Thuyền",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R88);
+                                      spawn(R88);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Terror Shank",
+                                        "Description" = "Tự Đánh Terror Shank",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R88);
+                                      spawn(R88);
+                                      spawn(R88);
+                                      spawn(R88);
+                                      spawn(R88);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Shark",
+                                        "Description" = "Tự Động Đánh Shark",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R88);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Piranha",
+                                        "Description" = "Tự Động Đánh Piranha",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R88);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Fish Crew Member",
+                                        "Description" = "Tự Động Thành viên phi hành đoàn Auto Kill Fish",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R88);
+
+                                      task["spawn"]({ "Title" = "Check Mirage Island", "Content" = "Loading..." });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Tween Mirage Island",
+                                        "Description" = "Tự Động Bay Tới Đảo Bí Ẩn",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R90);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Title" = "Esp Mirage Island",
+                                        "Description" = "Định Vị Đảo Bí Ẩn",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Look Moon + Auto V3",
+                                        "Description" = "Tự Động Nhìn Trăng Và Bật Tộc V3",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn("VirtualInputManager");
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Tween To Gear",
+                                        "Description" = "Tự Động Bay Đến Gear",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R91);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                        "Title" = "Teleport To Top GreatTree",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      R91(R92, {
+                                        "Title" = "Teleport Temple Of Time",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      R91(R92, {
+                                        "Title" = "Teleport Lever Pull",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      R91(R92, {
+                                        "Title" = "Teleport To The Clock",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                        "Title" = "Auto Race Door",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      R92(R93, {
+                                        "Title" = "Buy Acient One Quest",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Trial Human Ghost",
+                                        "Description" = "Tự Động Trial",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Trailer All Race",
+                                        "Description" = "Tự Động Trailer All Race",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R93);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Kill Player Trailer V4",
+                                        "Description" = "Đánh Người Chơi Trong Trial",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R93);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Skill Z",
+                                        "Description" = "Tự Động Dùng Skill Z Để Đánh",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Skill X",
+                                        "Description" = "Tự Động Dùng Skill X Để Đánh",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Skill C",
+                                        "Description" = "Tự Động Dùng Skill C Để Đánh",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                                        "Name" = "Select Chip",
+                                        "Options" = {},
+                                        "Default" = "Flame",
+                                        "Callback" = "Flame",
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Buy Chip",
+                                        "Description" = "Tự Động Mua Chip Raid",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      task["spawn"](R95);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Start Raid",
+                                        "Description" = "Bắt Đầu Raid",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      task["spawn"](R95);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Farm Raid Next Island",
+                                        "Description" = "Đánh Quái Và Đi Chuyển Đảo",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      task["spawn"]("Flame");
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Get Fruit Low Beli",
+                                        "Description" = "Tự Động Lấy Trái Ít Beli",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R98);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                        "Title" = "Auto Buy Chip Law",
+                                        "Description" = "Tự Động Mua Chip Law Raid",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      R98(R99, {
+                                        "Title" = "Auto Start Raid Law",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Farm Law Raid",
+                                        "Description" = "Đánh Boss Law Raid",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R99);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Random Fruits",
+                                        "Description" = "Tự Động Random Trái Ác Quỷ",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R100);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Title" = "Auto Store Fruits",
+                                        "Description" = "Tự Động Lưu Trái Ác Quỷ Vào Kho Đồ",
+                                        "Value" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R100);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Teleport To Fruit Spawn",
+                                        "Description" = "Tự Động Nhặt Trái Ác Quỷ Nếu Xuất Hiện Trong Sever",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R100);
+
+                                      loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                        "Name" = "Auto Teleport Fruits",
+                                        "Description" = "Tự Động Teleport Đến Trái Ác Quỷ",
+                                        "Default" = false,
+                                        "Callback" = false,
+                                      });
+
+                                      spawn(R100);
+
+                                      task["spawn"]({
+                                        "Title" = "Stock Trái Cây",
+                                        "Content" = "Đang tải dữ liệu...",
+                                      });
+
+                                      pcall(R105);
+
+                                      if World1 then
+                                        if not World2 then
+                                          if not World3 then
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddDropdown({
+                                              "Name" = "Select Island",
+                                              "Description" = "Chọn đảo để teleport",
+                                              "Options" = {},
+                                              "Default" = {}[1],
+                                              "Callback" = {}[1],
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Name" = "Auto Tween To Island",
+                                              "Description" = "Tự động di chuyển tới đảo đã chọn",
+                                              "Default" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            task["spawn"](R109);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Name" = "Sea 1",
+                                              "Description" = "Biển 1",
+                                              "Callback" = "Biển 1",
+                                            });
+
+                                            R109(R110, {
+                                              "Name" = "Sea 2",
+                                              "Description" = "Biển 2",
+                                              "Callback" = "Biển 2",
+                                            });
+
+                                            R109(R110, {
+                                              "Name" = "Sea 3",
+                                              "Description" = "Biển 3",
+                                              "Callback" = "Biển 3",
+                                            });
+
+                                            table["insert"]("insert", "MarineFord"["Name"]);
+                                          end
+
+                                          game["Players"]("Desert")("Desert", {
+                                            "Title" = "Get Quest Elite Players",
+                                            "Description" = "Nhận Nhiệm Vụ Người Chơi",
+                                            "Callback" = "Nhận Nhiệm Vụ Người Chơi",
+                                          });
+
+                                          loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                            "Title" = "Auto Kill Player Quest",
+                                            "Description" = "Bay Đến Người Chơi Được Nhận Nhiệm Vụ",
+                                            "Value" = false,
+                                            "Callback" = false,
+                                          });
+
+                                          spawn(R113);
+                                          spawn(R113);
+                                          spawn(R113);
+
+                                          loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                            "Name" = "Auto Safe Mode",
+                                            "Description" = "Tự Động An Toàn Di Chuyển Lên Trời An Toàn",
+                                            "Default" = false,
+                                            "Callback" = false,
+                                          });
+
+                                          spawn(R113);
+
+                                          getgenv()["WalkSpeedValue"] = 30;
+                                          getgenv()["JumpValue"] = 50;
+
+                                          game:GetService["LocalPlayer"]["CharacterAdded"]:Connect(R117);
+
+                                          if not game:GetService["LocalPlayer"]["Character"] then
+                                            game:GetService["LocalPlayer"]["Character"](game:GetService["LocalPlayer"]["Character"]);
+                                            {}["Min"] = 26;
+                                            {}["Max"] = 300;
+
+                                            R115(R116, {
+                                              "Title" = "Speed Chạy by OVNI Hub",
+                                              "Default" = getgenv()["WalkSpeedValue"],
+                                              "Callback" = getgenv()["WalkSpeedValue"],
+                                            });
+
+                                            {}["Min"] = 50;
+                                            {}["Max"] = 500;
+
+                                            R115(R116, {
+                                              "Title" = "Nhảy Cao by OVNI Hub",
+                                              "Default" = getgenv()["JumpValue"],
+                                              "Callback" = getgenv()["JumpValue"],
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Name" = "Delete Lava",
+                                              "Description" = "Xoá Lava Tránh Bị Mấy Thằng Kid Lỏ Dìm Lava :))",
+                                              "Default" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R116);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Esp Players",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({ "Title" = "Esp Chest", "Value" = false, "Callback" = false });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({ "Title" = "Esp Fruits", "Value" = false, "Callback" = false });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({ "Title" = "Esp Berry", "Value" = false, "Callback" = false });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Buy Black Leg $150,000",
+                                              "Callback" = "Buy Black Leg $150,000",
+                                            });
+
+                                            R117(R118, {
+                                              "Title" = "Buy Electro $550,000",
+                                              "Callback" = "Buy Electro $550,000",
+                                            });
+
+                                            R117(R118, {
+                                              "Title" = "Buy Water Kung Fu $750,000",
+                                              "Callback" = "Buy Water Kung Fu $750,000",
+                                            });
+
+                                            R117(R118, {
+                                              "Title" = "Buy Dragon Claw 1,500F",
+                                              "Callback" = "Buy Dragon Claw 1,500F",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Buy Superhuman $3,000,000",
+                                              "Callback" = "Buy Superhuman $3,000,000",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy Death Step $5,000,000 5,000F",
+                                              "Callback" = "Buy Death Step $5,000,000 5,000F",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy Sharkman Karate $2,500,000 5,000F",
+                                              "Callback" = "Buy Sharkman Karate $2,500,000 5,000F",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy Electric Claw $3,000,000 5,000F",
+                                              "Callback" = "Buy Electric Claw $3,000,000 5,000F",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy Dragon Talon $3,000,000 5,000F",
+                                              "Callback" = "Buy Dragon Talon $3,000,000 5,000F",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy God Human $5,000,000 5,000F",
+                                              "Callback" = "Buy God Human $5,000,000 5,000F",
+                                            });
+
+                                            R118(R119, {
+                                              "Title" = "Buy Sanguine Art $5,000,000 5,000F",
+                                              "Callback" = "Buy Sanguine Art $5,000,000 5,000F",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Craft Dragonheart",
+                                              "Callback" = "Craft Dragonheart",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft Dragonstorm",
+                                              "Callback" = "Craft Dragonstorm",
+                                            });
+
+                                            R119(R120, { "Title" = "Craft DinoHood", "Callback" = "Craft DinoHood" });
+
+                                            R119(R120, {
+                                              "Title" = "Craft SharkTooth",
+                                              "Callback" = "Craft SharkTooth",
+                                            });
+
+                                            R119(R120, { "Title" = "Craft TerrorJaw", "Callback" = "Craft TerrorJaw" });
+
+                                            R119(R120, {
+                                              "Title" = "Craft SharkAnchor",
+                                              "Callback" = "Craft SharkAnchor",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft LeviathanCrown",
+                                              "Callback" = "Craft LeviathanCrown",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft LeviathanShield",
+                                              "Callback" = "Craft LeviathanShield",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft LeviathanBoat",
+                                              "Callback" = "Craft LeviathanBoat",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft LegendaryScroll",
+                                              "Callback" = "Craft LegendaryScroll",
+                                            });
+
+                                            R119(R120, {
+                                              "Title" = "Craft MythicalScroll",
+                                              "Callback" = "Craft MythicalScroll",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Buy Geppo $10,000",
+                                              "Callback" = "Buy Geppo $10,000",
+                                            });
+
+                                            R120(R121, {
+                                              "Title" = "Buy Buso Haki $25,000",
+                                              "Callback" = "Buy Buso Haki $25,000",
+                                            });
+
+                                            R120(R121, {
+                                              "Title" = "Buy Soru $25,000",
+                                              "Callback" = "Buy Soru $25,000",
+                                            });
+
+                                            R120(R121, {
+                                              "Title" = "Buy Observation Haki $750,000",
+                                              "Callback" = "Buy Observation Haki $750,000",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Buy Cutlass $1,000",
+                                              "Callback" = "Buy Cutlass $1,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Katana $1,000",
+                                              "Callback" = "Buy Katana $1,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Iron Mace $25,000",
+                                              "Callback" = "Buy Iron Mace $25,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Dual Katana $12,000",
+                                              "Callback" = "Buy Dual Katana $12,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Triple Katana $60,000",
+                                              "Callback" = "Buy Triple Katana $60,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Pipe $100,000",
+                                              "Callback" = "Buy Pipe $100,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Dual-Headed Blade $400,000",
+                                              "Callback" = "Buy Dual-Headed Blade $400,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Bisento $1,200,000",
+                                              "Callback" = "Buy Bisento $1,200,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Soul Cane $750,000",
+                                              "Callback" = "Buy Soul Cane $750,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Pole V2 5,000F",
+                                              "Callback" = "Buy Pole V2 5,000F",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Slingshot $5,000",
+                                              "Callback" = "Buy Slingshot $5,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Musket $8,000",
+                                              "Callback" = "Buy Musket $8,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Flintlock $10,500",
+                                              "Callback" = "Buy Flintlock $10,500",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Refined Slingshot $30,000",
+                                              "Callback" = "Refined Slingshot $30,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Refined Flintlock $65,000",
+                                              "Callback" = "Buy Refined Flintlock $65,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Cannon $100,000",
+                                              "Callback" = "Buy Cannon $100,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Kabucha 1,500F",
+                                              "Callback" = "Buy Kabucha 1,500F",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Bizarre Rifle 250 Ectoplasm",
+                                              "Callback" = "Buy Bizarre Rifle 250 Ectoplasm",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Black Cape $50,000",
+                                              "Callback" = "Buy Black Cape $50,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Swordsman Hat $150,000",
+                                              "Callback" = "Swordsman Hat $150,000",
+                                            });
+
+                                            R121(R122, {
+                                              "Title" = "Buy Tomoe Ring $500,000",
+                                              "Callback" = "Buy Tomoe Ring $500,000",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Đổi Tộc Ghoul",
+                                              "Description" = "",
+                                              "Callback" = "Đổi Tộc Ghoul",
+                                            });
+
+                                            R122(R123, {
+                                              "Title" = "Đổi Tộc Cyborg",
+                                              "Description" = "",
+                                              "Callback" = "Đổi Tộc Cyborg",
+                                            });
+
+                                            R122(R123, {
+                                              "Title" = "Reset Stats 2,500F",
+                                              "Callback" = "Reset Stats 2,500F",
+                                            });
+
+                                            R122(R123, {
+                                              "Title" = "Random Race 3,000F",
+                                              "Callback" = "Random Race 3,000F",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddParagraph({
+                                              "Title" = "Unban Fast Attack - M1 Fruit",
+                                              "Content" = "On: ✅",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/TuanAnhIOS/refs/heads/main/koby"))();
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Name" = "Bring Mod",
+                                              "Description" = "Tự Động Gom Quái",
+                                              "Default" = true,
+                                              "Callback" = true,
+                                            });
+
+                                            spawn(R124);
+
+                                            InMyNetWork = R123;
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Set Home Point",
+                                              "Description" = "Lưu Điểm Hồi Sinh",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Infinite Soru",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Auto Active Race V3",
+                                              "Description" = "Tự Động Bật Tộc V3",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Auto Active Race V4",
+                                              "Description" = "Tự Động Bật Tộc V4",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Infinite Soru",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            PosY = 30;
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Dodge No CD",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            NoCooldown = R123;
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Infinite Geppo",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Walk on Water",
+                                              "Value" = true,
+                                              "Callback" = true,
+                                            });
+
+                                            spawn(R124);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Melee",
+                                              "Description" = "Tự Động Nâng Điểm Melee",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Defense",
+                                              "Description" = "Tự Động Nâng Điểm Năng Lượng",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Sword",
+                                              "Description" = "Tự Động Nâng Điểm Kiếm",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Gun",
+                                              "Description" = "Tự Động Nâng Điểm Súng",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab:AddToggle({
+                                              "Title" = "Fruis",
+                                              "Description" = "Tự Động Nâng Điểm Trái",
+                                              "Value" = false,
+                                              "Callback" = false,
+                                            });
+
+                                            spawn(R134);
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, { "Title" = "Join Sea 1", "Callback" = "Join Sea 1" });
+
+                                            R134(R135, { "Title" = "Join Sea 2", "Callback" = "Join Sea 2" });
+
+                                            R134(R135, { "Title" = "Join Sea 3", "Callback" = "Join Sea 3" });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, {
+                                              "Title" = "Join Pirates Team",
+                                              "Callback" = "Join Pirates Team",
+                                            });
+
+                                            R135(R136, {
+                                              "Title" = "Join Marines Team",
+                                              "Callback" = "Join Marines Team",
+                                            });
+
+                                            R135(R136, { "Title" = "Open Title Name", "Callback" = "Open Title Name" });
+
+                                            R135(R136, {
+                                              "Title" = "FPS Boost",
+                                              "Description" = "Tăng Fps",
+                                              "Callback" = "Tăng Fps",
+                                            });
+
+                                            "FUDD10_V2"("KITTGAMING", {
+                                              "Title" = "Codes",
+                                              "Description" = "Tự Động Nhập Hết Code",
+                                              "Callback" = "Tự Động Nhập Hết Code",
+                                            });
+
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow:MakeTab({}, { "Title" = "Rejoin Server", "Callback" = "Rejoin Server" });
+
+                                            R138(R139, { "Title" = "Server Hop", "Callback" = "Server Hop" });
+                                            return;
+                                          end
+                                        end
+                                      end
+                                    end
+                                  end
+                                end
+                              end
+                            end
+                          end
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
+if tostring == "FireServer" then
+  if tostring == "RemoteEvent" then
+    if tostring ~= "true" then
+      if tostring ~= "false" then
+        if not _G["UseSkill"] then
+          if type ~= "vector" then
+            {}[2] = CFrame["new"];
+            {}[2] = PositionSkillMasteryDevilFruit;
+
+            return PositionSkillMasteryDevilFruit->top;
+            return PositionSkillMasteryDevilFruit->top;
+          end
+        end
+      end
+    end
+  end
+end
